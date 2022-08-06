@@ -15,15 +15,15 @@ jobs:
         id: snake-gif
         with:
           github_user_name: isabellagibson
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path: github-contribution-grid-snake.svg
           empty_color: "rgba(10,10,10,0.05)"
           snake_color: "#999999"
       - run: git status
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: main
           force: true
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
