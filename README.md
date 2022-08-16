@@ -1,4 +1,5 @@
 - 👋 Hi, I’m @isabellagibson (but everyone calls me Izzy)
+- 🎡 Re-inventing the ~~wheel~~ code since '16
 - 👩 17 y.o.
 - ️‍🌈 Lesbian trans woman
 - 🤖 Basically a cyborg
